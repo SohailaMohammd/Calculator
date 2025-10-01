@@ -41,6 +41,7 @@ function operation(opt) {
     console.log(opte);
 }
 
+
 function resultNum() {
     if (secondnumber === "" || Firstnumber === "") {
         return;
