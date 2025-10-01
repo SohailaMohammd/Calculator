@@ -19,7 +19,9 @@ function display(btn) {
     }
     input.value += btn.getAttribute("data-value")
 
-
+    if (opte) {
+        input.value;
+    }
     if (opte === "") {
         Firstnumber = input.value
         console.log(`first : ${Firstnumber}`);
@@ -40,6 +42,9 @@ function operation(opt) {
 }
 
 function resultNum() {
+    if (secondnumber === "" || Firstnumber === "") {
+        return;
+    }
     if (opte === "+") {
         result = +Firstnumber + +secondnumber;
         input.value = result
