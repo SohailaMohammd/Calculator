@@ -48,35 +48,35 @@ function resultNum() {
     }
     if (opte === "+") {
         result = +Firstnumber + +secondnumber;
-        input.value = new Intl.NumberFormat().format(result)
+        input.value = new Intl.NumberFormat("en-US").format(result)
         Firstnumber = result
         secondnumber = ""
         opte = ""
 
     } else if (opte === "%") {
         result = +Firstnumber % +secondnumber;
-        input.value = new Intl.NumberFormat().format(result)
+        input.value = new Intl.NumberFormat("en-US").format(result)
         Firstnumber = result
         secondnumber = ""
         opte = ""
     }
     else if (opte === "*") {
         result = +Firstnumber * +secondnumber;
-        input.value = new Intl.NumberFormat().format(result)
+        input.value = new Intl.NumberFormat("en-US").format(result)
         Firstnumber = result
         secondnumber = ""
         opte = ""
     }
     else if (opte === "-") {
         result = +Firstnumber - +secondnumber;
-        input.value = new Intl.NumberFormat().format(result)
+        input.value = new Intl.NumberFormat("en-US").format(result)
         Firstnumber = result
         secondnumber = ""
         opte = ""
     }
     else if (opte === "/") {
         result = +Firstnumber / +secondnumber;
-        input.value = new Intl.NumberFormat().format(result)
+        input.value = new Intl.NumberFormat("en-US").format(result)
         Firstnumber = result
         secondnumber = ""
         opte = ""
